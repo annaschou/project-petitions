@@ -179,3 +179,8 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+scripts/._analysis-change.org.ipynb
+._custom.css
+._index.html
+._petitionen.js
+data-processed/._petitionen.csv

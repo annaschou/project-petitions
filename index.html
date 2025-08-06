@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Petitionen Project</title>
+
+    <!-- Add CSS -->
+
+    <link rel="stylesheet" href="custom.css">
+
+    <!-- Load D3 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+
+</head>
+    <div class="content">
+
+        <div class="header">
+            <h1>Everyone can make a difference</h1>
+            <p class="subhead">Petitions in Germany</p>
+        </div>
+
+
+        <div class="byline">
+            <p>By <a href="https://github.com/annaschou">Anna-Lena Schou</a></p>
+        </div>
+
+
+        <p>Every citizen in Germany has the right to address requests and complaints to the state – a petition. 
+            The low-threshold submission process via the official Bundestag portal democratizes participation 
+            – if you find 30,000 supporters, you even get the opportunity to be heard in the Bundestag itself through a public hearing.</p>
+
+
+        <p>In addition to the official platform, there are private websites like <a href="https://www.change.org/de">change.org</a>. 
+            Countless people click and sign petitions addressed to politicians and companies.
+
+
+        <h2>More petitions, same participation</h2>   
+
+
+        <p>The data paints a nuanced picture: Interest in online petitions remains strong. 
+            More and more petitions are started on Change.org every year. The sense of activism is growing. 
+            But the sobering truth: In 2018, 8 percent of submitted petitions achieved 300000 supporters. 
+            In 2025, it’s only 1.8 percent.</p>
+
+
+        <iframe title="Growth without impact" aria-label="Line Chart" id="datawrapper-chart-QeCwc"
+            src="https://datawrapper.dwcdn.net/QeCwc/2/" scrolling="no" frameborder="0" height="757" data-external="1"></iframe>
+        <script type="text/javascript">!function () { "use strict"; window.addEventListener("message", (function (a) { if (void 0 !== a.data["datawrapper-height"]) { var e = document.querySelectorAll("iframe"); for (var t in a.data["datawrapper-height"]) for (var r = 0; r < e.length; r++)if (e[r].contentWindow === a.source) { var i = a.data["datawrapper-height"][t] + "px"; e[r].style.height = i } } })) }();
+        </script>
+
+        <h2>Positive vs. Negative Wording</h2>
+
+        <p>A closer look at the wording and motives of petitions reveals patterns. 
+            Most initiators want one thing above all: to stop something. 
+            “Stop the project! Stop the decision!” Next come petitions that clearly advocate for something – basic income for all, lunch for all students.</p>
+
+        <p class="charts">Tone of petitions</p>
+        <div id="class-abs"></div>
+
+
+        <p>But what really motivates supporters? Petitions aimed at securing, preserving, or saving something tend to gather the most signatures. Next are calls to ban or stop something – the word “no” also dominates among the most successful signature drives.</p>
+          
+        
+        <p class="charts">Preservation before prohibition</p>
+         <div id="class-per"></div>
+
+         <h2>Emotions matters</h2>
+
+        <p>So, petitions often mirror the emotions of society. Many are willing to click along, but few petitions actually make it onto the real political stage. The urge to have an influence is there. 
+            If you truly want to change something, you have to convince many others to join in – but real change takes more than just a digital click on private platforms.</p>
+
+
+        <p> So the pros are closing the gap while the field is getting younger and more female – whether that’s because of social media or young women seeking new challenges.</p>
+
+        <!-- Include java script file + tooltip -->
+        <div id="tooltip"></div>
+        <script src="petitionen.js"></script>
+
+ 
+    <div class="footer">
+            <p>You can find the code for this project <a href="https://github.com/annaschou/github.com-annaschou-petition-project/">here</a>.
+        </div>
+    </div>
+</body>
+
+</html>

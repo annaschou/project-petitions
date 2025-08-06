@@ -1,0 +1,147 @@
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-rendering: optimizeLegibility;
+            background-color: #ffffff;
+            color: #000000;
+        }
+
+        .content {
+            max-width: 640px;
+            margin: auto;
+            text-align: justify;
+        }
+
+        .header {
+            padding: 0.5em 0;
+            text-align: center;
+        }
+
+        a {
+            color: #4c9fc7;
+        }
+
+        .footer {
+            background-color: #f2f1ec ;
+            text-align: center;
+            font-size: 0.8em;
+            margin-top: 2em;
+            padding: 1em 0;
+        }
+
+
+        figcaption {
+            font-size: 0.4em;
+            text-align: center;
+            margin-top: 0.5em;
+            color: #666;
+        }
+
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: 2.5em;
+            line-height: 1.1;
+        }
+
+        h2 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: 1.25em;
+            line-height: 1.1;
+        }
+
+        .subhead {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.25em;
+            line-height: 1.1;
+        }
+        
+
+        iframe {
+            height: auto;
+            width: 100%;
+            display: block;
+            margin: 0 auto;
+            border: none;
+            aspect-ratio: 16/9;
+            padding-top: 1.2em;
+            padding-bottom: 1.2em;
+        }
+
+        p {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding-bottom: 1.2em;
+        }
+
+        .charts{
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        #tooltip {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            position: absolute; 
+            opacity: 0;
+            background: rgba(255,255,255,0.95);
+            pointer-events: none;
+            padding: 0.2em 0.8em;
+            border-radius: 4px;
+            border: 1px solid #bbb;
+            color: #222;
+            z-index: 2000;
+            transition: opacity 0.2s;
+        }
+
+
+ 
+        /* margin on mobile */
+        @media (max-width: 640px) {
+            body {
+                overflow-x: hidden;
+                font-size: 18px;
+            }
+
+            .content {
+                padding-left: 0.5em;
+                padding-right: 0.5em;
+            }
+
+            iframe {
+            width: 100%; 
+            margin: 0; 
+            overflow: hidden; 
+            }
+
+            .line-chart {
+                height: 80px;
+                transform: scale(2);
+            }
+        }
+
+        /* darkmode */ 
+        @media (prefers-color-scheme: dark) {
+         body,
+         .footer {
+            background-color: #121212;
+            color: #ffffff;
+            }
+
+        .line-chart {
+            filter: invert(1);
+        }
+
+    </style>
