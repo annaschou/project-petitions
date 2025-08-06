@@ -1,3 +1,4 @@
+.DS_Store
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -184,3 +185,7 @@ scripts/._analysis-change.org.ipynb
 ._index.html
 ._petitionen.js
 data-processed/._petitionen.csv
+._.git
+._.gitattributes
+._.gitignore
+._README.md
