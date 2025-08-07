@@ -7,7 +7,7 @@ My personal goal was to improve my scraping skills and working with D3.
 ## Data Collection
 
 This is the source for my data:
-- <a href"https://www.change.org/de">Change.org</a>
+- Change.org
 
 ## Data Analysis
 
